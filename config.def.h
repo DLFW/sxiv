@@ -65,7 +65,7 @@ static const keymap_t keys[] = {
 	{ 0,            XK_q,             g_quit,               None },
 	{ 0,            XK_Return,        g_switch_mode,        None },
 	{ 0,            XK_f,             g_toggle_fullscreen,  None },
-	{ 0,            XK_b,             g_toggle_bar,         None },
+	{ ControlMask,  XK_b,             g_toggle_bar,         None },
 	/*{ ControlMask,  XK_x,             g_prefix_external,    None },*/
 	{ 0,            XK_v,             g_prefix_external,    None },
 	{ 0,            XK_g,             g_first,              None },
@@ -108,6 +108,7 @@ static const keymap_t keys[] = {
 	{ 0,            XK_n,             i_scroll_to_edge,     DIR_LEFT | DIR_UP },
 	{ 0,            XK_space,         i_navigate,           +1 },
 	{ 0,            XK_p,             i_navigate,           -1 },
+	{ 0,            XK_b,             i_navigate,           -1 },
 	{ 0,            XK_p,             i_scroll_to_edge,     DIR_LEFT | DIR_UP },
 	{ 0,            XK_BackSpace,     i_navigate,           -1 },
 	{ 0,            XK_bracketright,  i_navigate,           +10 },
