@@ -62,7 +62,7 @@ static const int THUMB_SIZE = 8;
 /* keyboard mappings for image and thumbnail mode: */
 static const keymap_t keys[] = {
 	/* modifiers    key               function              argument */
-	{ 0,            XK_q,             g_quit,               None },
+	{ ControlMask,  XK_q,             g_quit,               None },
 	{ 0,            XK_Return,        g_switch_mode,        None },
 	{ 0,            XK_f,             g_toggle_fullscreen,  None },
 	{ ControlMask,  XK_b,             g_toggle_bar,         None },
